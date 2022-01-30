@@ -1,4 +1,4 @@
-# LoL Party Game - Discord Bot
+# :zap:LoL Party Game - Discord Bot:zap:
 - Discord bot that asks, "Who is the best {champ_name} player in this server?" 
 - Great game if you want to argue and have a laugh with your friends! 
 
