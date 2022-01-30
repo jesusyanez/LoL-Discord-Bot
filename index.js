@@ -9,17 +9,12 @@ bot.on('ready', () => {
   console.info(`Logged in as ${bot.user.tag}!`);
 });
 
-bot.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('pong');
-    msg.channel.send('pong');
+const jsonData = require('./champs');
+const values = Object.values(jsonData)
 
-  } else if (msg.content.startsWith('!k')) {
-    if (msg.mentions.users.size) {
-      const taggedUser = msg.mentions.users.first();
-      msg.channel.send(`kys ${taggedUser}`);
-    } else {
-      msg.reply('Please tag a valid user mong!');
-    }
-  }
+bot.on('message', msg => {
+  if (msg.content.startsWith('!lol')) {
+    const line = values[parseInt(Math.random() * values.length)]
+    msg.channel.send(`Who is the best ${line} in this server?`);
+  } 
 });
