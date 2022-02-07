@@ -15,9 +15,9 @@ const values = Object.values(jsonData);
 bot.on("message", (msg) => {
   if (msg.content.startsWith("!best")) {
     const line = values[parseInt(Math.random() * values.length)];
-    msg.channel.send(`Who is the best ${line} in this server?`);
+    msg.channel.send(`Who is the best ${line} player in this server?`);
   } else if (msg.content.startsWith("!worst")) {
     const line = values[parseInt(Math.random() * values.length)];
-    msg.channel.send(`Who is the worst ${line} in this server?`);
+    msg.channel.send(`Who is the worst ${line} player in this server?`);
   }
 });
