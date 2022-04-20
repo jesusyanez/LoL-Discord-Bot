@@ -1,15 +1,17 @@
 # :zap:LoL Party Game - Discord Bot:zap:
-- Discord bot that asks, "Who is the best or worst *character* player in this server?" 
-- Fun and greate arguments with friends!
+- The game asks, "Who is the best {champion} player in this server?" 
 
 ![](example.gif)
 
 
 
-## How to play
+## Playing Instructions
 
-1. Use `!best` or `!worst`
-2. Argue with your friends :joy:
+1. Use `!best` or `!worst` in a Discord chat channel
+  - `!best` - "Who is the best Blitz player in this server?"
+  - `!worst` - "Who is the worst Blitz player in this server?"
+3. Try to come up with an answer and enjoy arguing with your friends
+4. xD :joy:
 
 ## Requirements
 
