@@ -1,10 +1,10 @@
 # LoL Discord Bot
-- A game for you and your friends to argue
+- A game that makes the whole server argue
 - The game asks, "Who is the best { *character* } in this server?"
-- Then you and your friends argue and gaslight each other to come to a conclusion
+- Then all server members argue and gaslight each other to come to a conclusion
 - Discord chat example below:
 
-<img src="example.gif" width="500" height="360" />
+<img src="example.gif" width="550" height="360" />
 
 ## Install
 
