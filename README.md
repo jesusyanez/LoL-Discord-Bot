@@ -1,7 +1,7 @@
 # LoL Discord Bot
 - A game that makes the whole server argue
-- The game asks, "Who is the best { *character* } in this server?"
-- Then all server members argue and gaslight each other to come to a conclusion
+- The game asks, "Who is the best at a specific character?"
+- Then everybody argues until they come to an agreement
 - Discord chat example below:
 
 <img src="example.gif" width="550" height="360" />
